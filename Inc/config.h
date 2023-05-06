@@ -789,7 +789,7 @@
 
 
 // Functional checks
-#if (defined(CONTROL_PPM_LEFT) || defined(CONTROL_PPM_RIGHT)) && !defined(PPM_NUM_CHANNELS)
+//#if (defined(CONTROL_PPM_LEFT) || defined(CONTROL_PPM_RIGHT)) && !defined(PPM_NUM_CHANNELS)
   #error Total number of PPM channels needs to be set
 #endif
 // ############################# END OF VALIDATE SETTINGS ############################
