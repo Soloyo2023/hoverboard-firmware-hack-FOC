@@ -721,7 +721,7 @@
 
 
 // LEFT cable checks
-#if defined(CONTROL_ADC) && (defined(CONTROL_SERIAL_USART2) || defined(SIDEBOARD_SERIAL_USART2) || defined(FEEDBACK_SERIAL_USART2) || defined(DEBUG_SERIAL_USART2))
+#if defined(CONTROL_ADC) && (defined(CONTROL_SERIAL_USART2) ||// defined(SIDEBOARD_SERIAL_USART2) || defined(FEEDBACK_SERIAL_USART2) || defined(DEBUG_SERIAL_USART2))
  // #error CONTROL_ADC and SERIAL_USART2 not allowed. It is on the same cable.
 #endif
 
